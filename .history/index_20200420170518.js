@@ -4,5 +4,5 @@ main.remove();
 
 let newHeader = document.createElement("h1");
 newHeader.id = 'victory';
-// document.appendChild(newHeader);
-newHeader.innerHTML = 'Tsura is the champion';
+document.appendChild(newHeader);
+newHeader.innerHTML = `${name} is the champion`;
